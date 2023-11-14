@@ -1,0 +1,48 @@
+body {
+
+    background-image: url(gura.jpg); /* Replace with your image path */
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+}
+
+.calculator {
+    margin-top: 25%;
+    margin-left: 75%;
+    width: 300px;
+    background-color: rgb(102,226,255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#display {
+    width: 92%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-gap: 10px;
+    background-color: rgb(255, 184, 236);
+}
+.bt {
+    background-color: rgb(181,242,254);
+}
+
+button {
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+}
+.bt:hover {
+    background-color: rgb(255,61,204, 0.3) ;
+    transition-duration: 0.1ms;
+}
+.bt:active {
+    background-color: rgb(255, 184, 236);
+    background-image: url(buttons.jpg);
+    background-size: cover;
+}
