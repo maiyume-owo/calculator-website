@@ -1,12 +1,15 @@
 body {
-
-    background-image: url(gura.jpg); /* Replace with your image path */
+    background-image: url(gura.jpg); 
     background-size: cover;
     font-family: 'Arial', sans-serif;
+    backdrop-filter: blur(4px); 
+    margin: auto;
+    padding: 50px;
+
 }
 
 .calculator {
-    margin-top: 25%;
+    margin-top: 30%;
     margin-left: 75%;
     width: 300px;
     background-color: rgb(102,226,255);
