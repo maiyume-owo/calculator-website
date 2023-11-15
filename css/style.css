@@ -2,9 +2,9 @@ body {
     background-image: url(gura.jpg); 
     background-size: cover;
     font-family: 'Arial', sans-serif;
-    backdrop-filter: blur(4px); 
     margin: auto;
     padding: 50px;
+    overflow: hidden;
 
 }
 
@@ -12,12 +12,11 @@ body {
     margin-top: 30%;
     margin-left: 75%;
     width: 300px;
-    background-color: rgb(102,226,255);
+    background: linear-gradient(to right, #0d6efd, #0a58ca, #064c86, #042c5c);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
-
+}       
 #display {
     width: 92%;
     margin-bottom: 10px;
@@ -49,3 +48,5 @@ button {
     background-image: url(buttons.jpg);
     background-size: cover;
 }
+
+
